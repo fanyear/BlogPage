@@ -1,1 +1,8 @@
-#### 链接：[https://fanyear.github.io/BaiduWebMission/Blog/index.html](https://fanyear.github.io/BaiduWebMission/Blog/index.html)
+## 博客
+***
+### 效果展示
+
+![timer](demo.gif)
+
+### 说明
+- 采用了flexbox 适配手机端
