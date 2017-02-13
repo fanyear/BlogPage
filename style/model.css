@@ -1,0 +1,201 @@
+html{
+    font: 16px "Microsoft YaHei";
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: #313131;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+}
+header, footer {
+    display: block;
+    margin: 0px;
+    min-height: 100px;
+}
+header {
+    display: block;
+    height: 500px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    text-align: center;
+}
+nav {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 60px;
+    text-align: left;
+    padding: 0px;
+}
+nav span {
+    border-radius: 5px;
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/12.jpg);
+    background-size: cover;
+}
+nav a{
+    background: #313131;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    line-height: 60px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+}
+nav a:hover{
+  background: #04679E;
+}
+.nav2{
+  display: block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #000;
+  height: 60px;
+  display: none;
+  cursor: pointer;
+  z-index: 100;
+}
+.nav2 span{
+  display: inline-block;
+  float: right;
+  margin-right: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/nav.png);
+  background-size:80% 50%;
+  height: 60px;
+  width: 60px;
+}
+.nav2-list{
+  display: block;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  text-align: center;
+  background: #313131;
+  display: none;
+  z-index: 100;
+}
+.nav2-list a{
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.nav2-list a:hover{
+  background: #04679E;
+}
+.blogHeader {
+    padding-top: 100px;
+}
+.blogHeader span {
+    display: inline-block;
+    font-size: 3em;
+    font-weight: 800;
+}
+.blogHeader p {
+    color: #949585;
+}
+
+#main {
+    min-height: 400px;
+    margin: 0px 6%;
+    margin-top: -50px;
+    padding: 0px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+#main aside{
+  margin: 10px;
+  flex-grow: 1;
+  -webkit-flex: 1 1 20%;
+  flex: 1 1 20%;
+  -webkit-order: 2;
+  order: 2;
+  background: #555;
+  padding: 10px;
+  text-align: center;
+  height: 400px;
+}
+#main aside .head{
+width: 100%;
+height: 220px;
+}
+#main aside .head img{
+  width: 110px;
+  height: 110px;
+  border-radius: 55px;
+  margin-top: 80px;
+}
+#main aside  span{
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 10px;
+
+}
+#main article{
+  margin: 10px;
+  flex-grow: 2;
+  -webkit-flex: 2 1 70%;
+  flex: 2 1 70%;
+  -webkit-order: 2;
+  order: 2;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    line-height: 100px;
+
+}
+@media all and (max-width: 860px) {
+    .nav2{
+      display: block;
+    }
+    .nav{
+      display: none;
+    }
+    #main{
+      margin: 0px 3%;
+    }
+    #main aside{
+      display: none;
+    }
+
+    #main article{
+      margin: 0px;
+    }
+
+
+
+}
+
+/* 窄到已不足以支持三栏 */
+
+@media all and (max-width: 640px) {
+
+}
